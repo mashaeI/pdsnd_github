@@ -3,13 +3,11 @@ import pandas as pd
 import numpy as np
 
 
-
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 months = ['january', 'february', 'march', 'april', 'may', 'june','all']
 days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all']
-
 
 
 def get_filters():
@@ -54,7 +52,6 @@ def get_filters():
     return city, month, day
 
 
-
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -84,7 +81,6 @@ def load_data(city, month, day):
     return df
 
 
-
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
@@ -103,7 +99,6 @@ def time_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
 
 def station_stats(df):
@@ -127,7 +122,6 @@ def station_stats(df):
     print('-'*40)
 
 
-
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
@@ -141,10 +135,8 @@ def trip_duration_stats(df):
     print("The mean travel hours is: " , mean_travel_time)
 
 
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
 
 def user_stats(df):
@@ -180,7 +172,6 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
 
 def display_raw_data(df):
@@ -221,7 +212,6 @@ def main():
         if restart.lower() != 'yes':
             print("\nExplore US bike share data is done. ")
             break
-
 
 
 if __name__ == "__main__":
