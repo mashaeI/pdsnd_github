@@ -1,17 +1,20 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+Start in 2021/7/10
 
 ### Project Title
-Replace the Project Title
+Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+This project to explore data for  Bikeshare from the three cities in US. You may filter on city, month, or day to see desired stats. It uses methods from pandas library in python.
 
 ### Files used
-Include the files used
+Bikeshare.py
+chicago.csv ,new_york_city.csv ,and washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://www.udacity.com
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+https://www.shanelynn.ie/python-pandas-read-csv-load-data-from-csv-files/
+https://realpython.com/python-csv
+https://stackoverflow.com/questions/1016814/what-to-do-with-unexpected-indent-in-python
+https://stackoverflow.com/questions/11904981/local-variable-referenced-before-assignment
