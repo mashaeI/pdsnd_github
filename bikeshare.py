@@ -1,3 +1,12 @@
+"""
+https://www.udacity.com
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+https://www.shanelynn.ie/python-pandas-read-csv-load-data-from-csv-files/
+https://realpython.com/python-csv
+https://stackoverflow.com/questions/1016814/what-to-do-with-unexpected-indent-in-python
+https://stackoverflow.com/questions/11904981/local-variable-referenced-before-assignment
+"""
+
 import time
 import pandas as pd
 import numpy as np
@@ -11,7 +20,6 @@ months = ['january', 'february', 'march', 'april', 'may', 'june','all']
 days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all']
 
 
-# In[3]:
 
 
 def get_filters():
@@ -182,8 +190,6 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
-
 
 
 
