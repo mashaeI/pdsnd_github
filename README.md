@@ -1,11 +1,11 @@
 ### Date created
-Start in 2021/7/10
+Started in 2021/7/10
 
 ### Project Title
-Bikeshare
+BikeShare
 
 ### Description
-This project to explore data for  Bikeshare from the three cities in US. You may filter on city, month, or day to see desired stats. It uses methods from pandas library in python.
+This project to explore data for Bikeshare from the three cities in US. You may filter on city, month, or day to see desired stats. It uses methods from pandas library in python.
 
 ### Files used
 Bikeshare.py
