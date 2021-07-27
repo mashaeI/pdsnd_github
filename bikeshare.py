@@ -211,6 +211,28 @@ def main():
             break
 
 
+def display_raw_data(df):
+    """View 5 lines of raw data."""
+
+    i = 0
+    raw_input = input("Would you like to view next five row of raw data? Enter yes or no ").lower()
+    while True:
+
+        if raw_input == 'no':
+            break
+
+
+        elif raw_input == 'yes':
+            print(df.iloc[i : i+5])
+            raw = input("Would you like to view next five row of raw data? Enter yes or no ").lower()
+            i += 5
+            if raw == 'no':
+                break
+
+        else:
+            raw_input = input("\n Invalid answer please try again , Enter yes or no ").lower()
+
+
 
 if __name__ == "__main__":
 	main()
